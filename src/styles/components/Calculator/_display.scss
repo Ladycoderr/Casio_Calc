@@ -1,0 +1,53 @@
+
+
+
+
+.display {
+    background-color: #fff;
+    height: 100px;
+    word-wrap: break-word;  
+}
+.display-shadow{
+    box-shadow: inset 0px -7px 2px 17px rgba(130,126,130,1);
+    -webkit-box-shadow:inset 0px -7px 2px 17px rgba(130,126,130,1);
+    -moz-box-shadow: inset 0px -7px 2px 17px rgba(130,126,130,1);
+    box-shadow:  inset 0px -7px 2px 17px rgba(130,126,130,1);
+    width: 436px;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 312px;
+    height: 119px;
+    padding-right: 22px !important;
+    font-family: Pocket Calculator !important;
+    font-size: 61px;
+}
+.black-power{
+    background-color: black;
+    -webkit-box-shadow: inset 0px 0px 2px 3px rgba(130,126,130,1);
+    -moz-box-shadow: inset 0px 0px 2px 3px rgba(130,126,130,1);
+    box-shadow: inset 0px 0px 2px 3px rgba(130,126,130,1);
+    border-radius: 4px;
+}
+.text-power{
+    text-align: right;
+    font-size: 9px;
+    margin-right: 42px;
+}
+.error-display{
+    position: absolute;
+    top: 65px;
+    left: 31px;
+    font-style: italic;
+}
+.memory-display{
+position: absolute;
+top: 23px;
+left: 27px;
+font-style: italic;
+}
+.expression-display{
+    position: absolute;
+    top: 11px;
+    right: 28px;
+    font-size: 15px;
+}

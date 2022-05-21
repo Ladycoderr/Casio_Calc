@@ -1,0 +1,175 @@
+body {
+  background-color: whitesmoke;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.display {
+  background-color: #fff;
+  height: 100px;
+  word-wrap: break-word;
+}
+
+.display-shadow {
+  box-shadow: inset 0px -7px 2px 17px rgb(130, 126, 130);
+  -webkit-box-shadow: inset 0px -7px 2px 17px rgb(130, 126, 130);
+  -moz-box-shadow: inset 0px -7px 2px 17px rgb(130, 126, 130);
+  box-shadow: inset 0px -7px 2px 17px rgb(130, 126, 130);
+  width: 436px;
+  margin: 0 auto;
+  border-radius: 5px;
+  width: 312px;
+  height: 119px;
+  padding-right: 22px !important;
+  font-family: Pocket Calculator !important;
+  font-size: 61px;
+}
+
+.black-power {
+  background-color: black;
+  -webkit-box-shadow: inset 0px 0px 2px 3px rgb(130, 126, 130);
+  -moz-box-shadow: inset 0px 0px 2px 3px rgb(130, 126, 130);
+  box-shadow: inset 0px 0px 2px 3px rgb(130, 126, 130);
+  border-radius: 4px;
+}
+
+.text-power {
+  text-align: right;
+  font-size: 9px;
+  margin-right: 42px;
+}
+
+.error-display {
+  position: absolute;
+  top: 65px;
+  left: 31px;
+  font-style: italic;
+}
+
+.memory-display {
+  position: absolute;
+  top: 23px;
+  left: 27px;
+  font-style: italic;
+}
+
+.expression-display {
+  position: absolute;
+  top: 11px;
+  right: 28px;
+  font-size: 15px;
+}
+
+.keypad {
+  height: auto;
+  width: 328px;
+  margin-top: 7px;
+}
+
+.keypad-row {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.keypad-row > button {
+  font-size: 27px;
+  overflow: hidden;
+  height: 43px;
+  margin: 4px;
+  line-height: 0;
+  font-family: monospace;
+  font-weight: lighter !important;
+}
+
+.keypad-primary-btn {
+  background-color: #FBFBFB;
+  color: #20232A;
+  font-weight: bold;
+}
+
+.off-btn {
+  margin-right: -12px !important;
+}
+
+.keypad-secondary-btn {
+  background-color: #585555;
+  color: #fff;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  width: 48px;
+}
+
+.first-row {
+  height: 62px;
+  display: table;
+  width: 100%;
+}
+
+.small-button {
+  height: 30px !important;
+  font-size: 20px !important;
+  padding: 0 !important;
+}
+
+.keypad {
+  padding: 17px;
+}
+
+.keypad-model {
+  width: 200px;
+  float: left;
+  left: 56px;
+  position: relative;
+  height: 50px;
+  margin: 0;
+  top: 10px;
+}
+
+.first-row-btn {
+  width: 288px;
+  float: right;
+  position: absolute;
+  right: 0;
+}
+
+.last-row {
+  width: 238px;
+  margin-top: -52px;
+  margin-right: 28px;
+}
+
+.plus-btn {
+  height: 97px !important;
+}
+
+.turnOn {
+  font-size: 9px;
+  margin-left: 27px;
+  margin-top: -4px;
+}
+
+.calculator {
+  background-color: #EAEAEA;
+  padding: 0 10;
+}
+
+.main-shadow {
+  webkit-box-shadow: inset 0px -4px 2px 10px rgb(208, 208, 208);
+  -moz-box-shadow: inset 0px -4px 2px 10px rgb(208, 208, 208);
+  box-shadow: inset 0px -4px 2px 10px rgb(208, 208, 208);
+  border-radius: 16px;
+}
+
+.second-div {
+  width: 329px;
+  height: 544px;
+}
+
+/*# sourceMappingURL=/src.e31bb0bc.css.map */
